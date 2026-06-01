@@ -1,4 +1,4 @@
-# Mobile App Portfolio
+# Mobile App Portfolio (English version follows)
 
 このリポジトリは、iOS / Androidアプリの開発・リリース経験をまとめたポートフォリオです。
 
