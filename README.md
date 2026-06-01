@@ -5,6 +5,8 @@
 これまでに、iOS / Android向けに150本以上のアプリを開発・リリースしてきました。
 主な領域は、フォトエディター、カメラ、フィルターアプリ、ユーティリティ、音声ツール、カジュアルパズルゲームなどです。
 
+また、外注デザイナーを利用せず、アプリアイコン、GUIパーツ、App Store / Google Play向けスクリーンショット、ストア掲載用画像、アプリプレビュー動画なども自分で制作してきました。Photoshop / Illustratorなどのグラフィックツールを実用レベルで使い、実装からストア提出用クリエイティブまで一通り対応してきた経験があります。
+
 このリポジトリは、フリーランス案件のエージェント、発注企業、技術担当者に向けて、モバイルアプリ開発の実務経験を公開可能な形で説明するために作成しています。
 
 ---
@@ -26,8 +28,9 @@
 * ワードサーチパズル
 * Androidフォトエディターアプリ
 * App Store / Google Play公開・運用
+* アプリアイコン・GUIパーツ・ストア向けクリエイティブ制作
 
-150本以上のアプリ開発・リリース経験を通じて、企画、UI実装、画像処理、カメラ・フォトライブラリ連携、広告収益化、IAP、ローカライズ、ASO、ストア審査対応、アップデート運用など、個人開発から商用運用まで幅広い実務を経験しています。
+150本以上のアプリ開発・リリース経験を通じて、企画、UI実装、画像処理、カメラ・フォトライブラリ連携、広告収益化、IAP、ローカライズ、ASO、ストア審査対応、アップデート運用、アプリアイコン・スクリーンショット・プレビュー動画制作など、個人開発から商用運用まで幅広い実務を経験しています。
 
 ---
 
@@ -39,7 +42,7 @@
 * 150本以上のアプリ公開経験から得た実務知識
 * フォトエディター、カメラ、ユーティリティ、カジュアルゲーム系アプリの開発経験
 * App Store / Google Play公開に必要な実装・運用経験
-* 広告、IAP、ローカライズ、ASO、スクリーンショット制作を含む実務経験
+* 広告、IAP、ローカライズ、ASO、スクリーンショット、アプリアイコン、プレビュー動画制作を含む実務経験
 * 既存アプリの経験をもとに、公開可能な形へ再構成する設計力
 * 商用アプリのコードをそのまま公開せず、技術要素を整理して説明するポートフォリオ方針
 
@@ -58,6 +61,7 @@
 * ポートフォリオ用に加工・簡略化したスクリーンショット
 * 技術構成や設計方針の説明
 * App Store / Google Play運用に関する一般化したノウハウ
+* アプリ公開に必要なデザイン・ストア向けクリエイティブ制作に関する一般化したノウハウ
 * 既存アプリの経験をもとに新規作成する公開用サンプルへの導線
 * 技術担当者が確認しやすい公開用サンプル実装の計画
 
@@ -93,6 +97,7 @@
 | ユーティリティ        | 生活支援系アプリ、ローカル完結型ツール               | ローカル保存、通知、設定画面、オンボーディング、IAP対応                                        |
 | 音声ツール          | ボイスレコーダー                          | 録音、再生、ファイル管理、権限管理                                                    |
 | カジュアルゲーム       | ジグソーパズル、スライディングパズル、ワードサーチパズル      | ゲーム状態管理、タッチ操作、永続化、カジュアルUI                                            |
+| デザイン・ストア素材制作 | アプリアイコン、GUIパーツ、スクリーンショット、プレビュー動画 | Photoshop / Illustrator、ストア画像レイアウト、ASO / CVRを意識した見せ方 |
 | Androidアプリ     | Androidフォトエディター等                  | Kotlin、Jetpack Compose、CameraX、Photo Picker、MediaStore、Google Play公開 |
 
 ---
@@ -119,7 +124,7 @@
 | [ios-photo-editor-case-study.md](./ios-photo-editor-case-study.md)         | iOS / 写真・カメラ   | フォトエディター、カメラ、魚眼レンズ風エフェクト、レトロフィルター、コラージュ、保存・共有導線などの開発経験を整理                            |
 | [ios-utility-app-case-study.md](./ios-utility-app-case-study.md)           | iOS / ユーティリティ  | 掃除・家メンテ通知アプリを題材に、ローカル保存、通知、スケジュール、ウィジェット、IAP対応を整理                                    |
 | [android-photo-editor-case-study.md](./android-photo-editor-case-study.md) | Android / 写真編集 | Kotlin / Jetpack ComposeによるAndroidフォトエディター開発、CameraX、Photo Picker、MediaStore、広告対応を整理 |
-| [app-store-operations.md](./app-store-operations.md)                       | App Store運用    | iOSアプリの公開準備、メタデータ、スクリーンショット、ASO、IAP、広告、審査対応を整理                                       |
+| [app-store-operations.md](./app-store-operations.md)                       | App Store運用    | iOSアプリの公開準備、メタデータ、スクリーンショット、プレビュー動画、ASO、IAP、広告、審査対応を整理                                       |
 | [google-play-release.md](./google-play-release.md)                         | Google Play運用  | Androidアプリの公開準備、署名、ストア情報、プライバシー対応、広告設定、リリース運用を整理                                     |
 
 ---
@@ -237,8 +242,11 @@
 ### App Store
 
 * App Storeメタデータ作成
+* アプリアイコン制作
 * アプリ名、サブタイトル、プロモーションテキスト、説明文、キーワード作成
-* スクリーンショット設計
+* スクリーンショット設計・制作
+* スクリーンショット内コピー作成
+* アプリプレビュー動画作成
 * ローカライズ
 * ASO
 * IAP設定
@@ -254,11 +262,34 @@
 * Android App Bundle作成
 * アプリ署名
 * ストア掲載情報作成
+* アプリアイコン / Feature Graphic / スクリーンショット制作
 * プライバシーポリシー対応
 * 広告・同意管理への配慮
 * バージョンリリース
 * AndroidネイティブUIへの調整
 * Google Play公開・運用
+
+---
+
+## デザイン・ストアクリエイティブ制作経験
+
+アプリの実装だけでなく、App Store / Google Play公開に必要なデザイン素材やストア向けクリエイティブも、自分で制作してきました。
+
+外注デザイナーは利用せず、アプリのアイコン、GUIパーツ、スクリーンショット、ストア掲載用画像、アプリプレビュー動画などを、Photoshop / Illustratorなどのグラフィックツールを使って作成してきた経験があります。
+
+プロの専業デザイナーとしての実績を打ち出すものではありませんが、個人開発・小規模アプリ開発に必要な範囲で、以下のような制作に対応できます。
+
+* アプリアイコン作成
+* GUIパーツ作成
+* App Store / Google Play向けスクリーンショット作成
+* スクリーンショット内コピー作成
+* ストア掲載用画像のレイアウト
+* アプリプレビュー動画作成
+* Photoshop / Illustratorを使った画像編集・素材作成
+* アプリの世界観に合わせた簡易デザイン調整
+* ASOやCVRを意識したストア画像改善
+
+この経験により、アプリの企画、実装、ストア提出、スクリーンショット制作、ローカライズ、ASO、アップデートまでを一人で進められる点も強みです。
 
 ---
 
@@ -274,6 +305,7 @@
 * 機能はすべてではなく、主要機能に絞る
 * 広告ID、Bundle ID、Product IDなどの本番情報はすべて除外する
 * アイコンやGUIパーツは簡略化する
+* ストア向けスクリーンショットやプレビュー動画は、公開用に匿名化・再作成する
 * 有料素材・非公開素材は含めない
 * ストアURLは掲載しない
 * READMEとケーススタディで、目的・機能・設計意図を説明する
@@ -340,6 +372,17 @@
 * 多言語展開を前提とした文言設計
 * シンプルで保守しやすい画面構成
 
+### デザイン・ストア素材制作
+
+* Photoshop / Illustratorを使った画像制作
+* アプリアイコン作成
+* GUIパーツ作成
+* App Store / Google Playスクリーンショット作成
+* スクリーンショットコピー作成
+* ストア掲載用画像レイアウト
+* アプリプレビュー動画作成
+* ASO / CVRを意識したストアクリエイティブ改善
+
 ---
 
 ## リポジトリ構成
@@ -361,7 +404,7 @@ mobile-app-portfolio/
 
 ## スクリーンショット掲載方針
 
-このリポジトリに掲載するスクリーンショットは、ポートフォリオ説明用に準備したものです。
+このリポジトリに掲載するスクリーンショットやプレビュー動画は、ポートフォリオ説明用に準備したものです。
 
 掲載する可能性があるもの：
 
@@ -369,6 +412,7 @@ mobile-app-portfolio/
 * 匿名化・簡略化したUI
 * 公開用サンプルアプリの画面
 * ストア掲載風に加工した説明用スクリーンショット
+* 公開用に再作成したアプリプレビュー動画
 
 掲載しないもの：
 
@@ -406,6 +450,8 @@ mobile-app-portfolio/
 This repository summarizes my mobile app development and release experience across iOS and Android.
 
 I have developed and released more than 150 mobile apps, including photo editors, camera apps, filter apps, utility apps, voice tools, and casual puzzle games.
+I have also created app icons, GUI parts, App Store / Google Play screenshots, store listing images, and app preview videos myself using tools such as Photoshop and Illustrator, without relying on external designers.
+
 This portfolio is designed to present that experience in a public-safe format for freelance project matching, technical screening, and case-study review.
 
 The focus of this repository is not to publish production app source code as-is.
@@ -429,8 +475,9 @@ My main background is mobile app development, especially:
 * Word search puzzle games
 * Android photo editor apps
 * App Store / Google Play release and operation
+* App icon, GUI asset, screenshot, and app preview video production
 
-Through these projects, I have gained practical experience in app planning, UI implementation, image processing, camera/photo library integration, monetization, localization, ASO, store submission, review handling, and long-term update operation.
+Through these projects, I have gained practical experience in app planning, UI implementation, image processing, camera/photo library integration, monetization, localization, ASO, store submission, review handling, long-term update operation, and store creative production.
 
 ---
 
@@ -444,6 +491,7 @@ This repository is intended to show:
 * App Store / Google Play release and operation experience
 * Monetization-related implementation experience such as ads and in-app purchases
 * Localization and ASO-oriented app development experience
+* Practical design asset and store creative production experience using Photoshop / Illustrator
 * Ability to rebuild production-inspired features into clean, public portfolio samples
 
 This repository is designed as a portfolio and case-study collection, not as a direct dump of commercial app source code.
@@ -462,6 +510,7 @@ The apps and case studies in this repository are based on real app development e
 * Technical notes
 * Product and UX design notes
 * Store operation notes
+* Public-safe design and store creative production notes
 * Public sample repository plans
 * Rebuilt sample implementations derived from production experience
 
@@ -496,6 +545,7 @@ I have released apps across many mobile categories. The following categories rep
 | Utility apps                | Home and lifestyle utility apps, local-first tools                      | Local storage, notifications, settings, onboarding, IAP-ready structure         |
 | Voice tools                 | Voice recorder apps                                                     | Audio recording, playback, file management, permission handling                 |
 | Puzzle games                | Jigsaw puzzle, sliding puzzle, word search puzzle                       | Game state management, touch interaction, persistence, casual game UI           |
+| Design / store creative production | App icons, GUI parts, screenshots, app preview videos             | Photoshop / Illustrator, store image layout, ASO / conversion-oriented presentation |
 | Android apps                | Android photo editor and related tools                                  | Kotlin, Jetpack Compose, CameraX, Photo Picker, MediaStore, Google Play release |
 
 ---
@@ -510,7 +560,7 @@ Instead, it focuses on representative case studies that are relatively recent, e
 | [iOS Photo Editor / Camera Apps](./ios-photo-editor-case-study.md) | iOS      | Photo / Camera            | Case study based on photo editor, camera, fisheye effect, retro effect, collage, save/share flow, and App Store-oriented product design.                                             |
 | [iOS Utility App](./ios-utility-app-case-study.md)                 | iOS      | Utility / Lifestyle       | Case study of a local-first utility app with task management, notifications, scheduling, widgets, onboarding, settings, localization, and IAP-ready structure.                       |
 | [Android Photo Editor App](./android-photo-editor-case-study.md)   | Android  | Photo Editor              | Case study of an Android photo editor app rebuilt with Android-native design, focusing on Kotlin, Jetpack Compose, CameraX, Photo Picker, MediaStore, sharing, ads, and review flow. |
-| [App Store Operations](./app-store-operations.md)                  | iOS      | Release / Monetization    | Notes on App Store release preparation, metadata, screenshots, localization, ASO, IAP, ads, review handling, and update operation.                                                   |
+| [App Store Operations](./app-store-operations.md)                  | iOS      | Release / Monetization    | Notes on App Store release preparation, metadata, screenshots, app preview videos, localization, ASO, IAP, ads, review handling, and update operation.                                                   |
 | [Google Play Release](./google-play-release.md)                    | Android  | Release / Store Operation | Notes on Android release preparation, Play Console setup, app signing, privacy policy, ads, store listing, and version updates.                                                      |
 
 ---
@@ -596,8 +646,11 @@ In addition to implementation, I have practical experience with release and oper
 ### App Store
 
 * App Store metadata preparation
+* App icon production
 * App name, subtitle, promotional text, description, and keywords
-* Screenshot planning
+* Screenshot planning and production
+* Screenshot copywriting
+* App preview video production
 * Localization
 * ASO
 * IAP setup
@@ -612,11 +665,36 @@ In addition to implementation, I have practical experience with release and oper
 * Play Console setup
 * Android app signing
 * Store listing preparation
+* App icon / feature graphic / screenshot production
 * Privacy policy setup
 * Ads and consent considerations
 * Version release flow
 * Android-native UX adjustments
 * Google Play release operation
+
+---
+
+## Design / Store Creative Production Experience
+
+In addition to app implementation, I have also created the design assets and store creatives needed for App Store and Google Play releases.
+
+Without relying on external designers, I have produced app icons, GUI parts, store screenshots, promotional images, and app preview videos using tools such as Photoshop and Illustrator.
+
+I do not position myself as a professional UI or graphic designer, but I can handle the practical creative production required for indie apps and small-scale mobile app projects.
+
+Experience includes:
+
+* App icon design
+* GUI parts and visual assets
+* App Store / Google Play screenshots
+* Screenshot copywriting and layout
+* Store listing images
+* App preview videos
+* Image editing and asset production with Photoshop / Illustrator
+* Visual adjustments based on app concept and target audience
+* Store creative improvements for ASO and conversion rate
+
+This allows me to support the full app release workflow, from planning and implementation to store assets, localization, ASO, submission, and updates.
 
 ---
 
@@ -633,6 +711,7 @@ Instead, public code repositories are planned or prepared as simplified portfoli
 * Production identifiers are excluded
 * Ad IDs, Bundle IDs, package names, and Product IDs are replaced or removed
 * Icons and GUI assets are simplified
+* Store screenshots and app preview videos are anonymized or recreated for public portfolio use
 * Paid or private assets are not included
 * Store URLs are not listed publicly
 * README files explain the purpose, scope, and design decisions
@@ -692,6 +771,17 @@ Instead, public code repositories are planned or prepared as simplified portfoli
 * App Store screenshot messaging
 * Simple and maintainable app structure
 
+### Design / Store Creative Production
+
+* Image production with Photoshop / Illustrator
+* App icon design
+* GUI asset creation
+* App Store / Google Play screenshot production
+* Screenshot copywriting
+* Store listing image layout
+* App preview video production
+* Store creative improvements for ASO and conversion rate
+
 ---
 
 ## Repository Structure
@@ -713,7 +803,7 @@ mobile-app-portfolio/
 
 ## Notes on Screenshots
 
-Screenshots in this repository are prepared for portfolio explanation.
+Screenshots and app preview videos in this repository are prepared for portfolio explanation.
 
 They may include:
 
@@ -721,6 +811,7 @@ They may include:
 * Simplified or anonymized screens
 * Rebuilt sample screens
 * Store-style screenshots without direct store links
+* Recreated or anonymized app preview videos
 
 They do not include:
 
@@ -751,7 +842,7 @@ They can be shared individually with:
 This repository is a public-facing portfolio of mobile app development experience.
 
 It covers more than 150 released iOS and Android apps, including photo editor apps, camera apps, filter apps, utility apps, voice tools, and casual puzzle games.
-It also summarizes practical release-related experience such as App Store / Google Play preparation, ads, in-app purchases, localization, screenshots, ASO, and update operations.
+It also summarizes practical release-related experience such as App Store / Google Play preparation, ads, in-app purchases, localization, screenshots, app preview videos, store creative production, ASO, and update operations.
 
 Production source code and store URLs are not included here.
 Instead, this repository provides public-safe case studies and links to simplified sample projects where appropriate.
