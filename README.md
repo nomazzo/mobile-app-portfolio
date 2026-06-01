@@ -32,6 +32,16 @@ English version follows
 
 ---
 
+## App Release Creative
+
+アプリの実装だけでなく、App Store / Google Play公開に必要なクリエイティブ制作も自分で対応してきました。
+
+外注デザイナーは利用せず、アプリアイコン、GUIパーツ、スクリーンショット、ストア掲載用画像、アプリプレビュー動画などを、Photoshop / Illustratorなどを使って制作してきた経験があります。
+
+専業デザイナーとしてではなく、**個人開発・小規模アプリ開発に必要な実用レベルのデザイン制作まで対応できるエンジニア**として、企画・実装・ストア素材作成・ローカライズ・ASO・リリースまで一通り進められる点を強みとしています。
+
+---
+
 ## このリポジトリの目的
 
 このリポジトリでは、以下を伝えることを目的としています。
@@ -432,6 +442,16 @@ My main background is mobile app development, especially:
 * App Store / Google Play release and operation
 
 Through these projects, I have gained practical experience in app planning, UI implementation, image processing, camera/photo library integration, monetization, localization, ASO, store submission, review handling, and long-term update operation.
+
+---
+
+## App Release Creative
+
+In addition to app implementation, I have also created the creative assets needed for App Store and Google Play releases.
+
+Without relying on external designers, I have produced app icons, GUI assets, store screenshots, promotional images, and app preview videos using tools such as Photoshop and Illustrator.
+
+I do not position myself as a professional designer, but I can handle the practical creative production required for indie apps and small-scale mobile app projects, from implementation to store assets, localization, ASO, and release preparation.
 
 ---
 
