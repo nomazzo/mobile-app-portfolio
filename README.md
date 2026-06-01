@@ -1,4 +1,5 @@
-# Mobile App Portfolio
+# Mobile App Portfolio 
+English version follows
 
 このリポジトリは、iOS / Androidアプリの開発・リリース経験をまとめたポートフォリオです。
 
@@ -31,6 +32,16 @@
 * アプリアイコン・GUIパーツ・ストア向けクリエイティブ制作
 
 150本以上のアプリ開発・リリース経験を通じて、企画、UI実装、画像処理、カメラ・フォトライブラリ連携、広告収益化、IAP、ローカライズ、ASO、ストア審査対応、アップデート運用、アプリアイコン・スクリーンショット・プレビュー動画制作など、個人開発から商用運用まで幅広い実務を経験しています。
+
+---
+
+## App Release Creative
+
+アプリの実装だけでなく、App Store / Google Play公開に必要なクリエイティブ制作も自分で対応してきました。
+
+外注デザイナーは利用せず、アプリアイコン、GUIパーツ、スクリーンショット、ストア掲載用画像、アプリプレビュー動画などを、Photoshop / Illustratorなどを使って制作してきた経験があります。
+
+専業デザイナーとしてではなく、**個人開発・小規模アプリ開発に必要な実用レベルのデザイン制作まで対応できるエンジニア**として、企画・実装・ストア素材作成・ローカライズ・ASO・リリースまで一通り進められる点を強みとしています。
 
 ---
 
@@ -478,6 +489,16 @@ My main background is mobile app development, especially:
 * App icon, GUI asset, screenshot, and app preview video production
 
 Through these projects, I have gained practical experience in app planning, UI implementation, image processing, camera/photo library integration, monetization, localization, ASO, store submission, review handling, long-term update operation, and store creative production.
+
+---
+
+## App Release Creative
+
+In addition to app implementation, I have also created the creative assets needed for App Store and Google Play releases.
+
+Without relying on external designers, I have produced app icons, GUI assets, store screenshots, promotional images, and app preview videos using tools such as Photoshop and Illustrator.
+
+I do not position myself as a professional designer, but I can handle the practical creative production required for indie apps and small-scale mobile app projects, from implementation to store assets, localization, ASO, and release preparation.
 
 ---
 
