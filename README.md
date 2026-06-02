@@ -319,7 +319,7 @@
 
 | リポジトリ                         | 目的                                                 |
 | ----------------------------- | -------------------------------------------------- |
-| `ios-photo-editor-sample`     | Swift / SwiftUIで再構成したフォトエディター系iOSアプリの公開用サンプル       |
+| `ios-photo-editor-sample`     | コラージュ機能を主力としたフォトエディター系iOSアプリの公開用サンプル       |
 | `mobile-app-production-kit`   | AdMob、IAP、ローカライズ、レビュー依頼、設定画面など、アプリ公開・運用に必要な実装サンプル  |
 | `android-photo-editor-sample` | Kotlin / Jetpack ComposeによるAndroidフォトエディターの公開用サンプル |
 | `objc-swift-interop-sample`   | Objective-C資産とSwiftの連携、既存iOSアプリ改修を想定したサンプル         |
