@@ -94,7 +94,7 @@
 | フォトエディター       | 食べ物写真加工、レトロ写真加工、油絵風、デッサン画風        | 画像処理、フィルターUI、保存・共有導線、編集パイプライン                                        |
 | カメラアプリ         | 魚眼カメラ、レトロフィルターカメラ、セルフィカメラ、アート風カメラ | カメラ連携、リアルタイムプレビュー、撮影フロー、フォトライブラリ連携                                   |
 | フィルター / エフェクト系 | 光漏れ、魚眼、レトロ、トイカメラ、スケッチ風、油絵風        | エフェクト選択UI、パラメータ調整、プレビュー生成、素材管理                                       |
-| コラージュ / ステッカー  | 写真コラージュ、レイアウト編集、フレーム、ステッカー、クォート装飾 | 複数画像管理、レイアウト編集、装飾UI、エクスポート処理                                         |
+| ペインティング風カメラ / アート加工 | 油絵風カメラ、スケッチ風カメラ、トゥーン風フィルター、アート風リアルタイム加工 | カメラ連携、リアルタイム画像処理、フィルターUI、保存・共有導線 |
 | セルフィ / エンタメ系   | セルフィ向け加工、ステッカー系アプリ                | カメラUI、前面/背面カメラ切替、カジュアルUX                                             |
 | ユーティリティ        | 生活支援系アプリ、ローカル完結型ツール               | ローカル保存、通知、設定画面、オンボーディング、IAP対応                                        |
 | 音声ツール          | ボイスレコーダー                          | 録音、再生、ファイル管理、権限管理                                                    |
@@ -121,11 +121,21 @@
 
 | ファイル                                                                       | 対象             | 概要                                                                                   |
 | -------------------------------------------------------------------------- | -------------- | ------------------------------------------------------------------------------------ |
-| [ios-photo-editor-case-study.md](./ios-photo-editor-case-study.md)         | iOS / 写真・カメラ   | フォトエディター、カメラ、エフェクト、レトロフィルター、コラージュ、保存・共有導線などの開発経験を整理                            |
+| [ios-photo-editor-case-study.md](./ios-photo-editor-case-study.md)         | iOS / 写真・カメラ   | フォトエディター、カメラ、エフェクト、レトロフィルター、ペインティング風カメラ、保存・共有導線などの開発経験を整理                            |
 | [ios-utility-app-case-study.md](./ios-utility-app-case-study.md)           | iOS / ユーティリティ  | 掃除・家メンテ通知アプリを題材に、ローカル保存、通知、スケジュール、ウィジェット、IAP対応を整理                                    |
 | [android-photo-editor-case-study.md](./android-photo-editor-case-study.md) | Android / 写真編集 | Kotlin / Jetpack ComposeによるAndroidフォトエディター開発、CameraX、Photo Picker、MediaStore、広告対応を整理 |
 | [app-store-operations.md](./app-store-operations.md)                       | App Store運用    | iOSアプリの公開準備、メタデータ、スクリーンショット、プレビュー動画、ASO、IAP、広告、審査対応を整理                                       |
 | [google-play-release.md](./google-play-release.md)                         | Google Play運用  | Androidアプリの公開準備、署名、ストア情報、プライバシー対応、広告設定、リリース運用を整理                                     |
+
+---
+
+## 代表スクリーンショット
+
+| iOSペインティングカメラ | iOSユーティリティ | Androidフォトエディター |
+|---|---|---|
+| <img src="./docs/screenshots/ios-photo-editor/IMG_7525.PNG" width="220" alt="iOS photo editor screenshot"> | <img src="./docs/screenshots/ios-utility/ja_3.png" width="220" alt="iOS utility app screenshot"> | <img src="./docs/screenshots/android-photo-editor/en%20%281%29.png" width="220" alt="Android photo editor screenshot"> |
+
+各ケーススタディでは、アプリごとに3枚のスクリーンショットを掲載しています。追加のスクリーンショットやソースコードは、各アプリの個別リポジトリに配置しています。
 
 ---
 
@@ -140,7 +150,7 @@
 * デッサン画風写真加工
 * セルフィ向けアプリ
 * ステッカー・エンタメ系アプリ
-* コラージュ・レイアウト編集アプリ
+* ペインティング風カメラアプリ
 * カメラ撮影フロー
 * フォトライブラリからの画像選択
 * 撮影後・選択後の画像編集
@@ -315,14 +325,15 @@
 
 ---
 
-## 公開予定の関連リポジトリ
+## 関連リポジトリ
 
 | リポジトリ                         | 目的                                                 |
 | ----------------------------- | -------------------------------------------------- |
-| `ios-photo-editor-sample`     | コラージュ機能を主力としたフォトエディター系iOSアプリの公開用サンプル       |
-| `mobile-app-production-kit`   | AdMob、IAP、ローカライズ、レビュー依頼、設定画面など、アプリ公開・運用に必要な実装サンプル  |
+| `mobile-app-portfilio`        | 全体のアプリポートフォリオ説明                         |
+| `ios-photo-editor-sample`     | リアルタイム画像処理を使ったペインティング風カメラアプリの公開用サンプル       |
+| `ios-utility-app-sample`      | SwiftUI / SwiftDataによるホームタスク管理アプリの公開用サンプル |
 | `android-photo-editor-sample` | Kotlin / Jetpack ComposeによるAndroidフォトエディターの公開用サンプル |
-| `objc-swift-interop-sample`   | Objective-C資産とSwiftの連携、既存iOSアプリ改修を想定したサンプル         |
+| `ios-appstore-production-kit` | AdMob、IAP、ローカライズ、レビュー依頼、設定画面など、iOSアプリ公開・運用に必要な実装サンプル |
 
 ---
 
@@ -390,7 +401,7 @@
 ## リポジトリ構成
 
 ```text
-mobile-app-portfolio/
+mobile-app-portfilio/
 ├── README.md
 ├── ios-photo-editor-case-study.md
 ├── ios-utility-app-case-study.md
@@ -506,7 +517,7 @@ The apps and case studies in this repository are based on real app development e
 * Product and UX design notes
 * Store operation notes
 * Public-safe design and store creative production notes
-* Public sample repository plans
+* Links to public sample repositories
 * Rebuilt sample implementations derived from production experience
 
 ### What this repository does not include
@@ -535,7 +546,7 @@ I have released apps across many mobile categories. The following categories rep
 | Photo editor apps           | Food photo editor, retro photo editor, sketch/oil painting-style editor | Image processing, filter UI, save/export flow, editing pipeline                 |
 | Camera apps                 | Fisheye camera, retro filter camera, selfie camera, artistic camera     | Camera integration, real-time preview, photo capture, photo library integration |
 | Filter / effect apps        | Oil painting-style, sketch-style, fisheye, light leak, retro filters    | Effect selection UI, parameter controls, preview generation, asset management   |
-| Collage apps                | Photo collage, layout editor, frame/sticker/quote decoration            | Multiple image handling, layout editing, export flow, decoration UI             |
+| Painting camera / art filter apps | Oil painting-style camera, sketch camera, toon filters, real-time artistic effects | Camera integration, real-time image processing, filter UI, save/share flow |
 | Selfie / entertainment apps | Selfie-oriented filters, sticker entertainment apps                     | Camera UI, front/back camera handling, casual UX                                |
 | Utility apps                | Home and lifestyle utility apps, local-first tools                      | Local storage, notifications, settings, onboarding, IAP-ready structure         |
 | Voice tools                 | Voice recorder apps                                                     | Audio recording, playback, file management, permission handling                 |
@@ -552,11 +563,21 @@ Instead, it focuses on representative case studies that are relatively recent, e
 
 | Case Study                                                         | Platform | Area                      | Summary                                                                                                                                                                              |
 | ------------------------------------------------------------------ | -------- | ------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| [iOS Photo Editor / Camera Apps](./ios-photo-editor-case-study.md) | iOS      | Photo / Camera            | Case study based on photo editor, camera, fisheye effect, retro effect, collage, save/share flow, and App Store-oriented product design.                                             |
+| [iOS Photo Editor / Camera Apps](./ios-photo-editor-case-study.md) | iOS      | Photo / Camera            | Case study based on photo editor, camera, fisheye effect, retro effect, painting-style camera, save/share flow, and App Store-oriented product design.                                             |
 | [iOS Utility App](./ios-utility-app-case-study.md)                 | iOS      | Utility / Lifestyle       | Case study of a local-first utility app with task management, notifications, scheduling, widgets, onboarding, settings, localization, and IAP-ready structure.                       |
 | [Android Photo Editor App](./android-photo-editor-case-study.md)   | Android  | Photo Editor              | Case study of an Android photo editor app rebuilt with Android-native design, focusing on Kotlin, Jetpack Compose, CameraX, Photo Picker, MediaStore, sharing, ads, and review flow. |
 | [App Store Operations](./app-store-operations.md)                  | iOS      | Release / Monetization    | Notes on App Store release preparation, metadata, screenshots, app preview videos, localization, ASO, IAP, ads, review handling, and update operation.                                                   |
 | [Google Play Release](./google-play-release.md)                    | Android  | Release / Store Operation | Notes on Android release preparation, Play Console setup, app signing, privacy policy, ads, store listing, and version updates.                                                      |
+
+---
+
+## Representative Screenshots
+
+| iOS Painting Camera | iOS Utility App | Android Photo Editor |
+|---|---|---|
+| <img src="./docs/screenshots/ios-photo-editor/IMG_7525.PNG" width="220" alt="iOS photo editor screenshot"> | <img src="./docs/screenshots/ios-utility/ja_3.png" width="220" alt="iOS utility app screenshot"> | <img src="./docs/screenshots/android-photo-editor/en%20%281%29.png" width="220" alt="Android photo editor screenshot"> |
+
+Each case study includes three screenshots per app. Additional screenshots and source code are kept in the individual app repositories.
 
 ---
 
@@ -571,7 +592,7 @@ My iOS app experience includes photo and camera apps such as:
 * Sketch-style photo apps
 * Selfie-oriented apps
 * Sticker entertainment apps
-* Photo collage and layout editor apps
+* Painting-style camera and art filter apps
 
 Typical implementation areas:
 
@@ -697,7 +718,7 @@ This allows me to support the full app release workflow, from planning and imple
 
 Production apps are not published directly.
 
-Instead, public code repositories are planned or prepared as simplified portfolio samples derived from production experience.
+Instead, public code repositories are prepared as simplified portfolio samples derived from production experience.
 
 ### Policy
 
@@ -714,14 +735,15 @@ Instead, public code repositories are planned or prepared as simplified portfoli
 
 ---
 
-## Planned Related Repositories
+## Related Repositories
 
 | Repository                    | Purpose                                                                                                                                    |
 | ----------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------ |
-| `ios-photo-editor-sample`     | A simplified Swift / SwiftUI sample app demonstrating photo import, editing, filters, save/share flow, and maintainable iOS app structure. |
-| `mobile-app-production-kit`   | Production-oriented mobile app components such as ads, IAP, localization, review prompts, settings, and release-ready app structure.       |
+| `mobile-app-portfilio`        | Overall mobile app portfolio and case-study overview.                                                                                      |
+| `ios-photo-editor-sample`     | A simplified Swift / SwiftUI sample app demonstrating a painting-style camera, real-time filters, capture, save/share flow, and maintainable iOS app structure. |
+| `ios-utility-app-sample`      | A simplified SwiftUI / SwiftData home task management sample app.                                                                          |
 | `android-photo-editor-sample` | A simplified Kotlin / Jetpack Compose photo editor sample for Android-native photo import, edit, save, share, and ad-ready structure.      |
-| `objc-swift-interop-sample`   | A sample project showing Objective-C and Swift interoperability for maintaining and modernizing existing iOS apps.                         |
+| `ios-appstore-production-kit` | Production-oriented iOS app components such as ads, IAP, localization, review prompts, settings, and release-ready app structure.          |
 
 ---
 
@@ -782,9 +804,8 @@ Instead, public code repositories are planned or prepared as simplified portfoli
 ## Repository Structure
 
 ```text
-mobile-app-portfolio/
+mobile-app-portfilio/
 ├── README.md
-├── README_ja.md
 ├── ios-photo-editor-case-study.md
 ├── ios-utility-app-case-study.md
 ├── android-photo-editor-case-study.md

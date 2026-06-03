@@ -104,7 +104,7 @@
 * Camera
 * Filters
 * Retro
-* Collage
+* Painting Camera
 * Sketch
 * Fisheye
 * Black & White
@@ -384,15 +384,15 @@ IAPで意識している点：
 
 ---
 
-## 関連予定リポジトリ
+## 関連リポジトリ
 
-App Store運用経験に関連する公開用サンプルとして、以下のリポジトリを予定しています。
+App Store運用経験に関連する公開用リポジトリは以下です。
 
 | Repository                  | 目的                                             |
 | --------------------------- | ---------------------------------------------- |
-| `mobile-app-production-kit` | AdMob、IAP、レビュー依頼、ローカライズ、設定画面など、公開・運用に必要な実装サンプル |
-| `ios-photo-editor-sample`   | 写真編集・保存・共有・広告配置などを含むiOSサンプルアプリ                 |
+| `ios-appstore-production-kit` | AdMob、IAP、レビュー依頼、ローカライズ、設定画面など、公開・運用に必要な実装サンプル |
+| `ios-photo-editor-sample`   | ペインティング風カメラ、リアルタイムフィルター、保存・共有を含むiOSサンプルアプリ                 |
 | `ios-utility-app-sample`    | SwiftUI、通知、Widget、IAP、ローカル保存を含むユーティリティ系サンプル    |
-| `objc-swift-interop-sample` | 古いObjective-C資産とSwiftの連携・保守を想定したサンプル           |
+| `mobile-app-portfilio` | 全体のアプリポートフォリオ説明 |
 
 ---

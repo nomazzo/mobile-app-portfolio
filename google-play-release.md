@@ -272,13 +272,13 @@ Android Studioを使って、プロジェクト作成、ビルド、実機確認
 
 ---
 
-## 関連予定リポジトリ
+## 関連リポジトリ
 
-Google Play公開・運用経験に関連する公開用サンプルとして、以下のリポジトリを予定しています。
+Google Play公開・運用経験に関連する公開用リポジトリは以下です。
 
 | Repository                    | 目的                                                |
 | ----------------------------- | ------------------------------------------------- |
 | `android-photo-editor-sample` | Kotlin / Jetpack Composeで再構成したAndroid写真編集アプリのサンプル |
-| `mobile-app-production-kit`   | 広告、レビュー依頼、ローカライズ、設定画面などの実装サンプル                    |
-| `ios-photo-editor-sample`     | iOS版写真編集・保存共有フローのサンプル                             |
+| `ios-photo-editor-sample`     | iOS版ペインティング風カメラ・リアルタイムフィルター・保存共有フローのサンプル                             |
+| `mobile-app-portfilio`        | 全体のアプリポートフォリオ説明 |
 
