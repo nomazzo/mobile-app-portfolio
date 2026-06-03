@@ -329,11 +329,11 @@
 
 | リポジトリ                         | 目的                                                 |
 | ----------------------------- | -------------------------------------------------- |
-| `mobile-app-portfilio`        | 全体のアプリポートフォリオ説明                         |
-| `ios-photo-editor-sample`     | リアルタイム画像処理を使ったペインティング風カメラアプリの公開用サンプル       |
-| `ios-utility-app-sample`      | SwiftUI / SwiftDataによるホームタスク管理アプリの公開用サンプル |
-| `android-photo-editor-sample` | Kotlin / Jetpack ComposeによるAndroidフォトエディターの公開用サンプル |
-| `ios-appstore-production-kit` | AdMob、IAP、ローカライズ、レビュー依頼、設定画面など、iOSアプリ公開・運用に必要な実装サンプル |
+| [mobile-app-portfolio](https://github.com/nomazzo/mobile-app-portfolio) | 全体のアプリポートフォリオ説明                         |
+| [ios-photo-editor-sample](https://github.com/nomazzo/ios-photo-editor-sample) | リアルタイム画像処理を使ったペインティング風カメラアプリの公開用サンプル       |
+| [ios-utility-app-sample](https://github.com/nomazzo/ios-utility-app-sample) | SwiftUI / SwiftDataによるホームタスク管理アプリの公開用サンプル |
+| [android-photo-editor-sample](https://github.com/nomazzo/android-photo-editor-sample) | Kotlin / Jetpack ComposeによるAndroidフォトエディターの公開用サンプル |
+| [ios-appstore-production-kit](https://github.com/nomazzo/ios-appstore-production-kit) | AdMob、IAP、ローカライズ、レビュー依頼、設定画面など、iOSアプリ公開・運用に必要な実装サンプル |
 
 ---
 
@@ -739,11 +739,11 @@ Instead, public code repositories are prepared as simplified portfolio samples d
 
 | Repository                    | Purpose                                                                                                                                    |
 | ----------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------ |
-| `mobile-app-portfilio`        | Overall mobile app portfolio and case-study overview.                                                                                      |
-| `ios-photo-editor-sample`     | A simplified Swift / SwiftUI sample app demonstrating a painting-style camera, real-time filters, capture, save/share flow, and maintainable iOS app structure. |
-| `ios-utility-app-sample`      | A simplified SwiftUI / SwiftData home task management sample app.                                                                          |
-| `android-photo-editor-sample` | A simplified Kotlin / Jetpack Compose photo editor sample for Android-native photo import, edit, save, share, and ad-ready structure.      |
-| `ios-appstore-production-kit` | Production-oriented iOS app components such as ads, IAP, localization, review prompts, settings, and release-ready app structure.          |
+| [mobile-app-portfolio](https://github.com/nomazzo/mobile-app-portfolio) | Overall mobile app portfolio and case-study overview.                                                                                      |
+| [ios-photo-editor-sample](https://github.com/nomazzo/ios-photo-editor-sample) | A simplified Swift / SwiftUI sample app demonstrating a painting-style camera, real-time filters, capture, save/share flow, and maintainable iOS app structure. |
+| [ios-utility-app-sample](https://github.com/nomazzo/ios-utility-app-sample) | A simplified SwiftUI / SwiftData home task management sample app.                                                                          |
+| [android-photo-editor-sample](https://github.com/nomazzo/android-photo-editor-sample) | A simplified Kotlin / Jetpack Compose photo editor sample for Android-native photo import, edit, save, share, and ad-ready structure.      |
+| [ios-appstore-production-kit](https://github.com/nomazzo/ios-appstore-production-kit) | Production-oriented iOS app components such as ads, IAP, localization, review prompts, settings, and release-ready app structure.          |
 
 ---
 

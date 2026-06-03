@@ -390,9 +390,9 @@ App Store運用経験に関連する公開用リポジトリは以下です。
 
 | Repository                  | 目的                                             |
 | --------------------------- | ---------------------------------------------- |
-| `ios-appstore-production-kit` | AdMob、IAP、レビュー依頼、ローカライズ、設定画面など、公開・運用に必要な実装サンプル |
-| `ios-photo-editor-sample`   | ペインティング風カメラ、リアルタイムフィルター、保存・共有を含むiOSサンプルアプリ                 |
-| `ios-utility-app-sample`    | SwiftUI、通知、Widget、IAP、ローカル保存を含むユーティリティ系サンプル    |
-| `mobile-app-portfilio` | 全体のアプリポートフォリオ説明 |
+| [ios-appstore-production-kit](https://github.com/nomazzo/ios-appstore-production-kit) | AdMob、IAP、レビュー依頼、ローカライズ、設定画面など、公開・運用に必要な実装サンプル |
+| [ios-photo-editor-sample](https://github.com/nomazzo/ios-photo-editor-sample) | ペインティング風カメラ、リアルタイムフィルター、保存・共有を含むiOSサンプルアプリ                 |
+| [ios-utility-app-sample](https://github.com/nomazzo/ios-utility-app-sample) | SwiftUI、通知、Widget、IAP、ローカル保存を含むユーティリティ系サンプル    |
+| [mobile-app-portfolio](https://github.com/nomazzo/mobile-app-portfolio) | 全体のアプリポートフォリオ説明 |
 
 ---

@@ -447,6 +447,6 @@ ASOで意識する語：
 
 | Repository                  | 目的                                           |
 | --------------------------- | -------------------------------------------- |
-| `ios-utility-app-sample`    | SwiftUIによるローカル完結型ユーティリティアプリのサンプル             |
-| `ios-appstore-production-kit` | 通知、IAP、広告、設定、ローカライズ、レビュー依頼などの実装サンプル          |
-| `mobile-app-portfilio` | 全体のアプリポートフォリオ説明 |
+| [ios-utility-app-sample](https://github.com/nomazzo/ios-utility-app-sample) | SwiftUIによるローカル完結型ユーティリティアプリのサンプル             |
+| [ios-appstore-production-kit](https://github.com/nomazzo/ios-appstore-production-kit) | 通知、IAP、広告、設定、ローカライズ、レビュー依頼などの実装サンプル          |
+| [mobile-app-portfolio](https://github.com/nomazzo/mobile-app-portfolio) | 全体のアプリポートフォリオ説明 |

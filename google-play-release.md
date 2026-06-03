@@ -278,7 +278,7 @@ Google Play公開・運用経験に関連する公開用リポジトリは以下
 
 | Repository                    | 目的                                                |
 | ----------------------------- | ------------------------------------------------- |
-| `android-photo-editor-sample` | Kotlin / Jetpack Composeで再構成したAndroid写真編集アプリのサンプル |
-| `ios-photo-editor-sample`     | iOS版ペインティング風カメラ・リアルタイムフィルター・保存共有フローのサンプル                             |
-| `mobile-app-portfilio`        | 全体のアプリポートフォリオ説明 |
+| [android-photo-editor-sample](https://github.com/nomazzo/android-photo-editor-sample) | Kotlin / Jetpack Composeで再構成したAndroid写真編集アプリのサンプル |
+| [ios-photo-editor-sample](https://github.com/nomazzo/ios-photo-editor-sample) | iOS版ペインティング風カメラ・リアルタイムフィルター・保存共有フローのサンプル                             |
+| [mobile-app-portfolio](https://github.com/nomazzo/mobile-app-portfolio) | 全体のアプリポートフォリオ説明 |
 
